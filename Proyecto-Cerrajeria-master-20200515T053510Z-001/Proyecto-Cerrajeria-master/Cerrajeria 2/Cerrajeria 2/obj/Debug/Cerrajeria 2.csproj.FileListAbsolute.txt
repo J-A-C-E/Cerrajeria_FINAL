@@ -36,3 +36,16 @@ C:\Users\ajedr\Desktop\Proyecto-Cerrajeria-master-20200515T053510Z-001\Proyecto-
 C:\Users\ajedr\Desktop\Proyecto-Cerrajeria-master-20200515T053510Z-001\Proyecto-Cerrajeria-master\Cerrajeria 2\Cerrajeria 2\obj\Debug\Cerrajeria 2.csproj.CoreCompileInputs.cache
 C:\Users\ajedr\Desktop\Proyecto-Cerrajeria-master-20200515T053510Z-001\Proyecto-Cerrajeria-master\Cerrajeria 2\Cerrajeria 2\obj\Debug\Cerrajeria 2.exe
 C:\Users\ajedr\Desktop\Proyecto-Cerrajeria-master-20200515T053510Z-001\Proyecto-Cerrajeria-master\Cerrajeria 2\Cerrajeria 2\obj\Debug\Cerrajeria 2.pdb
+C:\Users\ajedr\OneDrive\Documentos\GitHub\Cerrajeria_FINAL\Proyecto-Cerrajeria-master-20200515T053510Z-001\Proyecto-Cerrajeria-master\Cerrajeria 2\Cerrajeria 2\bin\Debug\Cerrajeria 2.exe.config
+C:\Users\ajedr\OneDrive\Documentos\GitHub\Cerrajeria_FINAL\Proyecto-Cerrajeria-master-20200515T053510Z-001\Proyecto-Cerrajeria-master\Cerrajeria 2\Cerrajeria 2\bin\Debug\Cerrajeria 2.exe
+C:\Users\ajedr\OneDrive\Documentos\GitHub\Cerrajeria_FINAL\Proyecto-Cerrajeria-master-20200515T053510Z-001\Proyecto-Cerrajeria-master\Cerrajeria 2\Cerrajeria 2\bin\Debug\Cerrajeria 2.pdb
+C:\Users\ajedr\OneDrive\Documentos\GitHub\Cerrajeria_FINAL\Proyecto-Cerrajeria-master-20200515T053510Z-001\Proyecto-Cerrajeria-master\Cerrajeria 2\Cerrajeria 2\obj\Debug\Cerrajeria 2.csprojAssemblyReference.cache
+C:\Users\ajedr\OneDrive\Documentos\GitHub\Cerrajeria_FINAL\Proyecto-Cerrajeria-master-20200515T053510Z-001\Proyecto-Cerrajeria-master\Cerrajeria 2\Cerrajeria 2\obj\Debug\Cerrajeria_2.Cliente.resources
+C:\Users\ajedr\OneDrive\Documentos\GitHub\Cerrajeria_FINAL\Proyecto-Cerrajeria-master-20200515T053510Z-001\Proyecto-Cerrajeria-master\Cerrajeria 2\Cerrajeria 2\obj\Debug\Cerrajeria_2.Empleado.resources
+C:\Users\ajedr\OneDrive\Documentos\GitHub\Cerrajeria_FINAL\Proyecto-Cerrajeria-master-20200515T053510Z-001\Proyecto-Cerrajeria-master\Cerrajeria 2\Cerrajeria 2\obj\Debug\Cerrajeria_2.InicioSesion.resources
+C:\Users\ajedr\OneDrive\Documentos\GitHub\Cerrajeria_FINAL\Proyecto-Cerrajeria-master-20200515T053510Z-001\Proyecto-Cerrajeria-master\Cerrajeria 2\Cerrajeria 2\obj\Debug\Cerrajeria_2.Principal.resources
+C:\Users\ajedr\OneDrive\Documentos\GitHub\Cerrajeria_FINAL\Proyecto-Cerrajeria-master-20200515T053510Z-001\Proyecto-Cerrajeria-master\Cerrajeria 2\Cerrajeria 2\obj\Debug\Cerrajeria_2.Properties.Resources.resources
+C:\Users\ajedr\OneDrive\Documentos\GitHub\Cerrajeria_FINAL\Proyecto-Cerrajeria-master-20200515T053510Z-001\Proyecto-Cerrajeria-master\Cerrajeria 2\Cerrajeria 2\obj\Debug\Cerrajeria 2.csproj.GenerateResource.cache
+C:\Users\ajedr\OneDrive\Documentos\GitHub\Cerrajeria_FINAL\Proyecto-Cerrajeria-master-20200515T053510Z-001\Proyecto-Cerrajeria-master\Cerrajeria 2\Cerrajeria 2\obj\Debug\Cerrajeria 2.csproj.CoreCompileInputs.cache
+C:\Users\ajedr\OneDrive\Documentos\GitHub\Cerrajeria_FINAL\Proyecto-Cerrajeria-master-20200515T053510Z-001\Proyecto-Cerrajeria-master\Cerrajeria 2\Cerrajeria 2\obj\Debug\Cerrajeria 2.exe
+C:\Users\ajedr\OneDrive\Documentos\GitHub\Cerrajeria_FINAL\Proyecto-Cerrajeria-master-20200515T053510Z-001\Proyecto-Cerrajeria-master\Cerrajeria 2\Cerrajeria 2\obj\Debug\Cerrajeria 2.pdb

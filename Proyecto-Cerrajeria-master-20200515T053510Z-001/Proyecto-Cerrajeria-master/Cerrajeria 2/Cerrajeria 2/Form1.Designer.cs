@@ -142,6 +142,7 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(176, 20);
             this.txtNombre.TabIndex = 13;
+            this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
             // 
             // txtDireccion
             // 
@@ -157,6 +158,7 @@
             this.txtCelular.Name = "txtCelular";
             this.txtCelular.Size = new System.Drawing.Size(95, 20);
             this.txtCelular.TabIndex = 15;
+            this.txtCelular.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCelular_KeyPress);
             // 
             // txtUsuario
             // 
@@ -245,6 +247,7 @@
             this.txtApe_P.Name = "txtApe_P";
             this.txtApe_P.Size = new System.Drawing.Size(155, 20);
             this.txtApe_P.TabIndex = 24;
+            this.txtApe_P.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtApe_P_KeyPress);
             // 
             // txtApe_M
             // 
@@ -252,6 +255,7 @@
             this.txtApe_M.Name = "txtApe_M";
             this.txtApe_M.Size = new System.Drawing.Size(155, 20);
             this.txtApe_M.TabIndex = 26;
+            this.txtApe_M.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtApe_M_KeyPress);
             // 
             // label12
             // 

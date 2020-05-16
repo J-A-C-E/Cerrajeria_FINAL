@@ -41,6 +41,8 @@ namespace Cerrajeria_2
                 {
                     cbxUsers.Items.Add(read.GetValue(0).ToString());
                     pass.Add(read.GetValue(1).ToString());
+                    MessageBox.Show(read.GetValue(0).ToString());
+                    
                 }
             }
             catch (Exception Ex)

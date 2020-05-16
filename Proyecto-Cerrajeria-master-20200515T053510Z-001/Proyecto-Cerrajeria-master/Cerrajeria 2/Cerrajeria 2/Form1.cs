@@ -76,5 +76,26 @@ namespace Cerrajeria_2
             txtNombre.Clear();
             txtUsuario.Clear();
         }
+
+        Validaciones V = new Validaciones();
+        private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            V.SoloLetras(e);
+        }
+
+        private void txtApe_P_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            V.SoloLetras(e);
+        }
+
+        private void txtApe_M_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            V.SoloLetras(e);
+        }
+
+        private void txtCelular_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            V.SoloNumeros(e);
+        }
     }
 }
