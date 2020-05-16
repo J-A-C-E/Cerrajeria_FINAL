@@ -63,6 +63,7 @@ namespace Cerrajeria_2
                     {
                         Principal Formulario = new Principal(cbxUsers.Text);
                         Formulario.Show();
+                        //this.Close();
                         this.Hide();
                     }
                     else

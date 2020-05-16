@@ -112,6 +112,18 @@ namespace Cerrajeria_2
         {
 
         }
+
+        private void Principal_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F1)
+            {
+                InicioSesion inicio = new InicioSesion();
+
+                //this.Close();
+                this.Hide();
+                inicio.Show();
+            }
+        }
     }
 
 

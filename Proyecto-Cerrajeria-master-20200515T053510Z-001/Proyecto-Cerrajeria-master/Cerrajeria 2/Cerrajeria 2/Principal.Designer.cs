@@ -338,10 +338,12 @@
             this.Controls.Add(this.pnlUsuarios);
             this.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.KeyPreview = true;
             this.Name = "Principal";
             this.Text = "Cerrajería";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Principal_FormClosing);
             this.Load += new System.EventHandler(this.Principal_Load);
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Principal_KeyUp);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnlUsuarios.ResumeLayout(false);
             this.pnlUsuarios.PerformLayout();
