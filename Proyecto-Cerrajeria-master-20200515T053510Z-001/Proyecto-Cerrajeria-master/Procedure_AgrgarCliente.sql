@@ -28,3 +28,5 @@ CREATE PROCEDURE sp_Cliente
 	 RAISERROR('No se pudo ingresar los datos de forma correcta',16,1)
   END CATCH
   GO
+
+  Select* FROM Clientes
