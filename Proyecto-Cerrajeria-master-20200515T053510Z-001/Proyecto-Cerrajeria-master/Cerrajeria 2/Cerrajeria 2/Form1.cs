@@ -17,9 +17,10 @@ namespace Cerrajeria_2
         //SqlConnection con = new SqlConnection("Data Source=LAPTOP-DTRPMJU7;Initial Catalog=Cerrajeria_Hns;Integrated Security=True");
         SqlConnection con = new SqlConnection("Data Source=34.71.252.51;Initial Catalog=Cerrajeria_Hns;Persist Security Info=True;User ID=sqlserver;Password=123");
 
-        public Empleado()
+        public Empleado(string Usuario)
         {
             InitializeComponent();
+            lblUsuario.Text = Usuario;
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)

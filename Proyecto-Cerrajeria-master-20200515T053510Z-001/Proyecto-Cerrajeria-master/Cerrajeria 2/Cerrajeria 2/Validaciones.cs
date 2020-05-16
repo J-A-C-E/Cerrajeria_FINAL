@@ -64,5 +64,10 @@ namespace Cerrajeria_2
 
             }
         }
+
+        public void MostrarUsuario()
+        {
+
+        }
     }
 }

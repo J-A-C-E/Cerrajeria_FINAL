@@ -41,7 +41,7 @@ namespace Cerrajeria_2
                 {
                     cbxUsers.Items.Add(read.GetValue(0).ToString());
                     pass.Add(read.GetValue(1).ToString());
-                    MessageBox.Show(read.GetValue(0).ToString());
+                    //MessageBox.Show(read.GetValue(0).ToString());
                     
                 }
             }
@@ -61,13 +61,21 @@ namespace Cerrajeria_2
                     //pwd=GetPwd();
                     if (textBox1.Text == pass.ElementAt(cbxUsers.SelectedIndex))
                     {
-                        Principal Formulario = new Principal();
+                        Principal Formulario = new Principal(cbxUsers.Text);
                         Formulario.Show();
                         this.Hide();
                     }
                     else
                     {
                         MessageBox.Show("CONTRASEÑA INCORRECTA", "ERROR");
+
+                        //ESTO ES PRUEBA Y SE DEBE QUITAR
+
+                        Principal Formulario = new Principal(cbxUsers.Text);
+                        Formulario.Show();
+                        this.Hide();
+                        
+
                     }
                 }
             }

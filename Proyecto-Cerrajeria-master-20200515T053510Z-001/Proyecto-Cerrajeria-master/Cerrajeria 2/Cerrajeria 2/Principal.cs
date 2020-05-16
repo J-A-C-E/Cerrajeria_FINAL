@@ -12,9 +12,11 @@ namespace Cerrajeria_2
 {
     public partial class Principal : Form
     {
-        public Principal()
+        public Principal(string Usuario)
         {
             InitializeComponent();
+            //MessageBox.Show(Usuario);
+            lblUsuario.Text = Usuario;
         }
 
         private void btnRegistros_Click(object sender, EventArgs e)
@@ -91,19 +93,24 @@ namespace Cerrajeria_2
 
         private void btnCliente_Click(object sender, EventArgs e)
         {
-            Cliente FormularioCliente = new Cliente();
+            Cliente FormularioCliente = new Cliente(lblUsuario.Text);
             FormularioCliente.Show();
         }
 
         private void btnEmpleado_Click(object sender, EventArgs e)
         {
-            Empleado FormularioEmpleado = new Empleado();
+            Empleado FormularioEmpleado = new Empleado(lblUsuario.Text);
             FormularioEmpleado.Show();
         }
 
         private void Principal_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void Principal_Load(object sender, EventArgs e)
+        {
+
         }
     }
 

@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblUsuario = new System.Windows.Forms.Label();
             this.btnEmpleado = new System.Windows.Forms.Button();
             this.btnCliente = new System.Windows.Forms.Button();
             this.btnConsultas = new System.Windows.Forms.Button();
@@ -52,18 +52,18 @@
             this.pnlMenu.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // lblUsuario
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblUsuario.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label1.Location = new System.Drawing.Point(39, 12);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(48, 12);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "Usuario";
+            this.lblUsuario.AutoSize = true;
+            this.lblUsuario.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsuario.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblUsuario.Location = new System.Drawing.Point(39, 12);
+            this.lblUsuario.Name = "lblUsuario";
+            this.lblUsuario.Size = new System.Drawing.Size(48, 12);
+            this.lblUsuario.TabIndex = 10;
+            this.lblUsuario.Text = "Usuario";
             // 
             // btnEmpleado
             // 
@@ -299,7 +299,7 @@
             // 
             this.pnlUsuarios.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlUsuarios.Controls.Add(this.pictureBox1);
-            this.pnlUsuarios.Controls.Add(this.label1);
+            this.pnlUsuarios.Controls.Add(this.lblUsuario);
             this.pnlUsuarios.Location = new System.Drawing.Point(688, 12);
             this.pnlUsuarios.Name = "pnlUsuarios";
             this.pnlUsuarios.Size = new System.Drawing.Size(100, 49);
@@ -341,6 +341,7 @@
             this.Name = "Principal";
             this.Text = "Cerrajería";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Principal_FormClosing);
+            this.Load += new System.EventHandler(this.Principal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnlUsuarios.ResumeLayout(false);
             this.pnlUsuarios.PerformLayout();
@@ -351,7 +352,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblUsuario;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnRegistros;
         private System.Windows.Forms.Button btnTrabajos;
