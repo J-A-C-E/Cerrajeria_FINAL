@@ -12,9 +12,10 @@ namespace Cerrajeria_2
 {
     public partial class Trabajos : Form
     {
-        public Trabajos()
+        public Trabajos(string Usuario)
         {
             InitializeComponent();
+            lblUsuario.Text = Usuario;
         }
 
         private void lblTicket_Click(object sender, EventArgs e)

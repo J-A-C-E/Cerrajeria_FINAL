@@ -31,6 +31,8 @@ namespace Cerrajeria_2
             btnCliente.Visible = false;
             btnEmpleado.Visible = false;
             DesactivarConsultas();
+            pnlMenu.Visible = false;
+            tabTrabajos.Visible = true;
         }
 
         private void btnInventario_Click(object sender, EventArgs e)
@@ -122,6 +124,24 @@ namespace Cerrajeria_2
                 //this.Close();
                 this.Hide();
                 inicio.Show();
+            }
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            pnlMenu.Visible = true;
+            tabTrabajos.Visible = false;
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboBox1.SelectedIndex == 0)
+            {
+                gpLlaves.Enabled = true;
+            }
+            else
+            {
+                gpLlaves.Enabled = false;
             }
         }
     }
