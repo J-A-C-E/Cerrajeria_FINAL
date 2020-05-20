@@ -33,6 +33,7 @@ namespace Cerrajeria_2
             DesactivarConsultas();
             pnlMenu.Visible = false;
             tabTrabajos.Visible = true;
+            
         }
 
         private void btnInventario_Click(object sender, EventArgs e)
@@ -40,6 +41,9 @@ namespace Cerrajeria_2
             btnCliente.Visible = false;
             btnEmpleado.Visible = false;
             DesactivarConsultas();
+            Inventario miInventario = new Inventario(lblUsuario.Text);
+            miInventario.Show();
+            this.Hide();
         }
 
         private void btnConsultas_Click(object sender, EventArgs e)

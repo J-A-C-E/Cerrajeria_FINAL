@@ -50,3 +50,5 @@ C:\Users\ajedr\OneDrive\Documentos\GitHub\Cerrajeria_FINAL\Proyecto-Cerrajeria-m
 C:\Users\ajedr\OneDrive\Documentos\GitHub\Cerrajeria_FINAL\Proyecto-Cerrajeria-master-20200515T053510Z-001\Proyecto-Cerrajeria-master\Cerrajeria 2\Cerrajeria 2\obj\Debug\Cerrajeria 2.exe
 C:\Users\ajedr\OneDrive\Documentos\GitHub\Cerrajeria_FINAL\Proyecto-Cerrajeria-master-20200515T053510Z-001\Proyecto-Cerrajeria-master\Cerrajeria 2\Cerrajeria 2\obj\Debug\Cerrajeria 2.pdb
 C:\Users\ajedr\OneDrive\Documentos\GitHub\Cerrajeria_FINAL\Proyecto-Cerrajeria-master-20200515T053510Z-001\Proyecto-Cerrajeria-master\Cerrajeria 2\Cerrajeria 2\obj\Debug\Cerrajeria_2.Trabajos.resources
+C:\Users\ajedr\OneDrive\Documentos\GitHub\Cerrajeria_FINAL\Proyecto-Cerrajeria-master-20200515T053510Z-001\Proyecto-Cerrajeria-master\Cerrajeria 2\Cerrajeria 2\obj\Debug\Cerrajeria_2.CapturarInventario.resources
+C:\Users\ajedr\OneDrive\Documentos\GitHub\Cerrajeria_FINAL\Proyecto-Cerrajeria-master-20200515T053510Z-001\Proyecto-Cerrajeria-master\Cerrajeria 2\Cerrajeria 2\obj\Debug\Cerrajeria_2.Inventario.resources
